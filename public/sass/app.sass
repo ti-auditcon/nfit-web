@@ -608,11 +608,15 @@ header.site-header
         position: absolute
         background: red
         text-align: center
-        background: linear-gradient(to top, rgba(40, 44, 52, 1) 30%, rgba(40, 44, 52, 0) 80%)
+        display: flex
+        flex-wrap: wrap
+        align-items: flex-end
+        background: linear-gradient(to top, rgba(40, 44, 52, 1) 30%, rgba(40, 44, 52, 0) 100%)
+        // background: red
         .precios-beta-inner
           margin-left: auto
           margin-right: auto
-          width: 70vw
+          width: 95%
       .item
         display: flex
         flex-direction: column
@@ -670,6 +674,10 @@ header.site-header
           &:last-child
           &.active
       .los-planes
+        .precios-beta
+          padding-bottom: 12%
+          .precios-beta-inner
+            width: 60%
         .item
           h3
           h2
@@ -693,6 +701,9 @@ header.site-header
       .los-planes
         display: flex
         justify-content: space-between
+        .precios-beta
+          padding-bottom: 8%
+          .precios-beta-inner
         .item
           width: 24.5%
           h3
@@ -722,6 +733,10 @@ header.site-header
           &:last-child
           &.active
       .los-planes
+        .precios-beta
+          padding-bottom: 6%
+          .precios-beta-inner
+            width: 50%
         .item
           width: 25%
           h3

@@ -694,14 +694,22 @@ header.site-header .header-inner {
       position: absolute;
       background: red;
       text-align: center;
-      background: -webkit-gradient(linear, left bottom, left top, color-stop(30%, #282c34), color-stop(80%, rgba(40, 44, 52, 0)));
-      background: -webkit-linear-gradient(bottom, #282c34 30%, rgba(40, 44, 52, 0) 80%);
-      background: -o-linear-gradient(bottom, #282c34 30%, rgba(40, 44, 52, 0) 80%);
-      background: linear-gradient(to top, #282c34 30%, rgba(40, 44, 52, 0) 80%); }
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      align-items: flex-end;
+      background: -webkit-gradient(linear, left bottom, left top, color-stop(30%, #282c34), to(rgba(40, 44, 52, 0)));
+      background: -webkit-linear-gradient(bottom, #282c34 30%, rgba(40, 44, 52, 0) 100%);
+      background: -o-linear-gradient(bottom, #282c34 30%, rgba(40, 44, 52, 0) 100%);
+      background: linear-gradient(to top, #282c34 30%, rgba(40, 44, 52, 0) 100%); }
       .planes .planes-inner .los-planes .precios-beta .precios-beta-inner {
         margin-left: auto;
         margin-right: auto;
-        width: 70vw; }
+        width: 95%; }
     .planes .planes-inner .los-planes .item {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -756,7 +764,11 @@ header.site-header .header-inner {
   .planes .planes-inner .planes-switcher {
     width: 50%;
     margin-left: auto;
-    margin-right: auto; } }
+    margin-right: auto; }
+  .planes .planes-inner .los-planes .precios-beta {
+    padding-bottom: 12%; }
+    .planes .planes-inner .los-planes .precios-beta .precios-beta-inner {
+      width: 60%; } }
 
 @media (min-width: 1024px) {
   .planes {
@@ -772,6 +784,8 @@ header.site-header .header-inner {
       -webkit-box-pack: justify;
       -ms-flex-pack: justify;
       justify-content: space-between; }
+      .planes .planes-inner .los-planes .precios-beta {
+        padding-bottom: 8%; }
       .planes .planes-inner .los-planes .item {
         width: 24.5%; }
         .planes .planes-inner .los-planes .item h2 {
@@ -790,6 +804,10 @@ header.site-header .header-inner {
           margin-bottom: -1px; } }
 
 @media (min-width: 1200px) {
+  .planes .planes-inner .los-planes .precios-beta {
+    padding-bottom: 6%; }
+    .planes .planes-inner .los-planes .precios-beta .precios-beta-inner {
+      width: 50%; }
   .planes .planes-inner .los-planes .item {
     width: 25%; }
     .planes .planes-inner .los-planes .item.highlighten {
