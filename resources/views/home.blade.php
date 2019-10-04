@@ -114,18 +114,18 @@
       <div class="los-planes">
 
         {{-- Planes no Disponibles: Version Beta --}}
-        {{-- <div class="">
-          <div class="">
-            <h2 class="">
+        <div class="precios-beta">
+          <div class="precios-beta-inner">
+            <h2>
               <span class="color-secondary">
                 Planes no disponibles en versión Beta
               </span>
             </h2>
-            <p class="">
+            <p>
               Estamos trabajando duro para poner a tu disposición planes convenientes para tu negocio. Mientras puedes probar la app y vivir la experiencia NFIT.
             </p>
           </div>
-        </div> --}}
+        </div>
 
         <div class="item">
           <h3 class="color-primary text-center">Plan Starter</h3>
@@ -174,7 +174,7 @@
   </section>
 
   {{-- Personaliza la App --}}
-  <section class="personaliza">
+  {{-- <section class="personaliza">
     <div class="personaliza-inner container">
       <h2 class="text-center">+</h2>
       <h2 class="text-center color-primary">
@@ -200,7 +200,7 @@
         </a>
       </div>
     </div>
-  </section>
+  </section> --}}
 
   {{-- Promo --}}
   <section class="promo-full" style="background-image: url('{{asset('/img/back-promo.jpg')}}')">
