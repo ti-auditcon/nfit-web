@@ -111,7 +111,7 @@
         </button>
       </div>
 
-      <div class="los-planes">
+      <div class="los-planes beta">
 
         {{-- Planes no Disponibles: Version Beta --}}
         <div class="precios-beta">
@@ -203,7 +203,7 @@
   </section> --}}
 
   {{-- Promo --}}
-  <section class="promo-full" style="background-image: url('{{asset('/img/back-promo.jpg')}}')">
+  {{-- <section class="promo-full" style="background-image: url('{{asset('/img/back-promo.jpg')}}')">
     <div class="promo-inner container text-center">
       <h1 class="">
         Prueba <span class="color-primary">un Mes Gratis</span><br>de Plan Full
@@ -215,10 +215,23 @@
         Pruébalo Ahora
       </a>
     </div>
+  </section> --}}
+  <section class="promo-full" style="background-image: url('{{asset('/img/back-promo.jpg')}}')">
+    <div class="promo-inner container text-center">
+      <h1 class="">
+        <span class="color-primary">Prueba la App</span> antes de su lanzamiento
+      </h1>
+      <p class="">
+        Inscribe tu centro deportivo en nuestro programa Beta y prueba la applicación gratis antes que nadie.
+      </p>
+      <a class="btn-highlight" href="#">
+        Únete Ahora
+      </a>
+    </div>
   </section>
 
   {{-- Descarga la App --}}
-  <section class="app-promo-full" >
+  {{-- <section class="app-promo-full" >
     <div class="app-promo-inner container text-center">
       <h1 class="">
         <span class="color-primary">Descarga la App<br>Gratis</span>
@@ -237,5 +250,5 @@
         </a>
       </div>
     </div>
-  </section>
+  </section> --}}
 @endsection

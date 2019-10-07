@@ -240,8 +240,7 @@ h6 {
     line-height: 1.2em; }
   h2 {
     font-size: 2.3em;
-    line-height: 1.3em;
-    margin-bottom: 38px; }
+    line-height: 1.3em; }
   h3 {
     font-size: 1.6em;
     line-height: 1.15em; } }
@@ -249,11 +248,10 @@ h6 {
 @media (min-width: 1200px) {
   h1 {
     font-size: 2.8em;
-    line-height: 1.3em; }
+    line-height: 1.2em; }
   h2 {
     font-size: 2.4em;
-    line-height: 1.35em;
-    margin-bottom: 42px; } }
+    line-height: 1.15em; } }
 
 html,
 body {
@@ -688,7 +686,7 @@ header.site-header .header-inner {
     position: relative; }
     .planes .planes-inner .los-planes .precios-beta {
       width: 100%;
-      height: 100%;
+      height: 102%;
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
       position: absolute;
@@ -755,6 +753,8 @@ header.site-header .header-inner {
       .planes .planes-inner .los-planes .item.highlighten {
         background: #1F232A;
         border-color: #1F232A; }
+    .planes .planes-inner .los-planes.beta .item:nth-child(3), .planes .planes-inner .los-planes.beta .item:nth-child(4) {
+      display: none; }
 
 @media (min-width: 768px) {
   .planes .planes-inner h1 {
@@ -785,7 +785,13 @@ header.site-header .header-inner {
       -ms-flex-pack: justify;
       justify-content: space-between; }
       .planes .planes-inner .los-planes .precios-beta {
-        padding-bottom: 8%; }
+        padding-bottom: 8%;
+        background: -webkit-gradient(linear, left bottom, left top, color-stop(35%, #282c34), color-stop(90%, rgba(40, 44, 52, 0)));
+        background: -webkit-linear-gradient(bottom, #282c34 35%, rgba(40, 44, 52, 0) 90%);
+        background: -o-linear-gradient(bottom, #282c34 35%, rgba(40, 44, 52, 0) 90%);
+        background: linear-gradient(to top, #282c34 35%, rgba(40, 44, 52, 0) 90%); }
+        .planes .planes-inner .los-planes .precios-beta .precios-beta-inner h2 {
+          font-size: 2.6em; }
       .planes .planes-inner .los-planes .item {
         width: 24.5%; }
         .planes .planes-inner .los-planes .item h2 {
@@ -801,13 +807,24 @@ header.site-header .header-inner {
           margin-top: auto; }
         .planes .planes-inner .los-planes .item.highlighten {
           margin-top: -10px;
-          margin-bottom: -1px; } }
+          margin-bottom: -1px; }
+      .planes .planes-inner .los-planes.beta .item:nth-child(3), .planes .planes-inner .los-planes.beta .item:nth-child(4) {
+        display: inherit; } }
 
 @media (min-width: 1200px) {
+  .planes .planes-inner h1 {
+    width: 60%; }
   .planes .planes-inner .los-planes .precios-beta {
-    padding-bottom: 6%; }
+    padding-bottom: 6%;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(40%, #282c34), color-stop(90%, rgba(40, 44, 52, 0)));
+    background: -webkit-linear-gradient(bottom, #282c34 40%, rgba(40, 44, 52, 0) 90%);
+    background: -o-linear-gradient(bottom, #282c34 40%, rgba(40, 44, 52, 0) 90%);
+    background: linear-gradient(to top, #282c34 40%, rgba(40, 44, 52, 0) 90%); }
     .planes .planes-inner .los-planes .precios-beta .precios-beta-inner {
       width: 50%; }
+      .planes .planes-inner .los-planes .precios-beta .precios-beta-inner h2 {
+        font-size: 2.6em;
+        line-height: 1.25em; }
   .planes .planes-inner .los-planes .item {
     width: 25%; }
     .planes .planes-inner .los-planes .item.highlighten {
