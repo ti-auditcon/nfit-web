@@ -67,9 +67,9 @@
           <li>Ver historial de pagos realizados.</li>
           <li>Recibe notificaciones push personalizadas</li>
         </ul>
-        <a class="btn-normal" href="/app">
+        {{-- <a class="btn-normal" href="/app">
           Conócela en Detalle
-        </a>
+        </a> --}}
       </div>
     </div>
   </section>
@@ -91,9 +91,9 @@
           <li>Crea y modifica planes para tus alumnos</li>
           <li>Mensajería push personalizada</li>
         </ul>
-        <a class="btn-normal" href="/admin">
+        {{-- <a class="btn-normal" href="/admin">
           Conócelo en Detalle
-        </a>
+        </a> --}}
       </div>
     </div>
   </section>
@@ -224,7 +224,7 @@
       <p class="">
         Inscribe tu centro deportivo en nuestro programa Beta y prueba la applicación gratis antes que nadie.
       </p>
-      <a class="btn-highlight" href="#">
+      <a class="btn-highlight window-trigger" href="#">
         Únete Ahora
       </a>
     </div>
