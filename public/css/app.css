@@ -893,7 +893,6 @@ header.site-header .header-inner {
       height: 102%;
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
-      position: absolute;
       background: red;
       text-align: center;
       display: -webkit-box;
