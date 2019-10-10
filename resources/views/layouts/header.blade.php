@@ -16,9 +16,10 @@
       <form class="" action="index.html" method="post">
         <input type="text" name="" value="" placeholder="Ingresa tu Nombre">
         <input type="email" name="" placeholder="Ingresa tu Correo">
-        <input type="password" name="" placeholder="Ingresa una Contraseña">
-        <input type="password" name="" placeholder="Repite la Contraseña">
-        <input type="button" name="" value="Regístrate">
+        <input type="text" name="" placeholder="Nombre del Centro deportivo">
+        <input type="text" name="" placeholder="Ciudad">
+        <input type="text" name="" placeholder="Cantidad de alumnos (aprox)">
+        <input type="button" name="" value="Enviar">
       </form>
     </div>
     <div class="img" style="background-image: url('{{asset('/img/reserva_img.jpg')}}')">

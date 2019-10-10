@@ -62,9 +62,10 @@
         <ul class="">
           <li>Reserva y confirmación de clases</li>
           <li>Revisión del entrenamiento del día</li>
-          <li>Tomar notas de las clases</li>
-          <li>Ver datos de asistencia.</li>
-          <li>Ver historial de pagos realizados.</li>
+          <li>Pago en línea (Membresías y Servicios)</li>
+          <li>Tienda (Ecommerce) - Productos</li>
+          <li>Estadísticas de asistencia</li>
+          <li>Historial de pagos</li>
           <li>Recibe notificaciones push personalizadas</li>
         </ul>
         {{-- <a class="btn-normal" href="/app">
@@ -86,7 +87,7 @@
         </h2>
         <ul class="">
           <li>Gestiona las clases y la asistencia</li>
-          <li>Administra los pagos de cada alumno</li>
+          <li>Administra los pagos de cada cliente</li>
           <li>Gráficos y datos de las estadísticas actualizadas</li>
           <li>Crea y modifica planes para tus alumnos</li>
           <li>Mensajería push personalizada</li>
