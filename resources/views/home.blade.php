@@ -102,7 +102,7 @@
   {{-- Planes --}}
   <section class="planes">
     <div class="planes-inner container">
-      <h1 class="text-center">Planes que van con los objetivos de tu negocio</h1>
+      {{-- <h1 class="text-center">Planes que van con los objetivos de tu negocio</h1>
       <div class="planes-switcher">
         <button class="btn-toggle">
           Mensual
@@ -110,16 +110,17 @@
         <button class="btn-toggle active">
           Anual
         </button>
-      </div>
+      </div> --}}
 
-      <div class="los-planes beta">
+      <div class="los-planes">
+      {{-- <div class="los-planes beta"> --}}
 
         {{-- Planes no Disponibles: Version Beta --}}
         <div class="precios-beta">
           <div class="precios-beta-inner">
             <h2>
               <span class="color-secondary">
-                Planes no disponibles en versión Beta
+                Planes Próximamente
               </span>
             </h2>
             <p>
@@ -128,7 +129,7 @@
           </div>
         </div>
 
-        <div class="item">
+        {{-- <div class="item">
           <h3 class="color-primary text-center">Plan Starter</h3>
           <hr>
           <h2 class="text-center">Gratis</h2>
@@ -169,7 +170,7 @@
             <li>Incluye Contabilidad Automatizada (14TER)</li>
           </ul>
           <a class="btn-normal text-center" href="#">Contrátalo Ahora</a>
-        </div>
+        </div> --}}
       </div>
     </div>
   </section>
