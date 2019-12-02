@@ -343,6 +343,7 @@ header.site-header
         order: 2
         padding: 20px 46px
         img
+          // max-width: 120px
         h1
         p
         form
@@ -356,7 +357,7 @@ header.site-header
         background-size: cover
         display: inherit
 
-@media (min-width: 1024px)
+@media (min-width: 900px)
   .window
     .window-inner
       flex-wrap: nowrap
@@ -368,11 +369,19 @@ header.site-header
         align-content: center
         img
           margin-bottom: 42px
+          max-width: 140px
         h1
         p
         form
           margin-top: 40px
+          display: flex
+          flex-wrap: wrap
+          justify-content: space-between
           input
+            width: 100%
+            &:nth-child(4),
+            &:nth-child(5)
+              width: 49%
           input[type="button"]
       .img
         width: 55%

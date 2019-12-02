@@ -227,7 +227,7 @@
         Inscribe tu centro deportivo en nuestro programa Beta y prueba la applicación gratis antes que nadie.
       </p>
       <a class="btn-highlight window-trigger" href="#">
-        Únete Ahora
+        Solicíta una demo
       </a>
     </div>
   </section>

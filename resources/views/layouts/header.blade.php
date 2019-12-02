@@ -3,7 +3,7 @@
     <a href="/">
       <img src="{{asset('/img/logo_beta.svg')}}" class="logo" alt="Ir al Home">
     </a>
-    <a class="btn-highlight window-trigger" href="#">Pruébalo Gratis</a>
+    <a class="btn-highlight window-trigger" href="#">Solicítalo aquí</a>
   </div>
 </header>
 
@@ -11,7 +11,7 @@
   <div class="window-inner">
     <div class="data">
       <img src="{{asset('/img/logo_beta.svg')}}">
-      <h1>Reserva tu Cupo</h1>
+      <h1>Solicita tu Demo</h1>
       <p>Cras a est nisl. Nam congue eros vitae massa ultrices sagittis. Integer pharetra et tellus at luctus.</p>
       <form class="" action="index.html" method="post">
         <input type="text" name="" value="" placeholder="Ingresa tu Nombre">
