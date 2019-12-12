@@ -29,7 +29,7 @@ class ContactForm extends Mailable
      */
     public function build()
     {
-        return $this->from('contacto@asomic.com')
+        return $this->from('lab@asomic.com')
         ->view('emails.contact')                    
         ->with([
             'name' => $this->request->name,
