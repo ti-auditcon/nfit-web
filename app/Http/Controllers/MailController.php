@@ -12,7 +12,7 @@ class MailController extends Controller
 {
     public function contactForm(Request $request)
     {
-        Mail::to('contacto@nfit.app')->send(new ContactForm($request));
+        Mail::to('jmanuel.jorquera@gmail.com')->send(new ContactForm($request));
         return Redirect::back();
 
     }
