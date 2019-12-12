@@ -12,14 +12,15 @@
     <div class="data">
       <img src="{{asset('/img/logo_beta.svg')}}">
       <h1>Solicita tu Demo</h1>
-      <p>Cras a est nisl. Nam congue eros vitae massa ultrices sagittis. Integer pharetra et tellus at luctus.</p>
-      <form class="" action="index.html" method="post">
-        <input type="text" name="" value="" placeholder="Ingresa tu Nombre">
-        <input type="email" name="" placeholder="Ingresa tu Correo">
-        <input type="text" name="" placeholder="Nombre del Centro deportivo">
-        <input type="text" name="" placeholder="Ciudad">
-        <input type="text" name="" placeholder="Cantidad de alumnos (aprox)">
-        <input type="button" name="" value="Enviar">
+      {{-- <p>Cras a est nisl. Nam congue eros vitae massa ultrices sagittis. Integer pharetra et tellus at luctus.</p> --}}
+    <form class=""  action="{{route('mails.contact')}}" method="post">
+        @csrf
+        <input type="text" name="name" value="" placeholder="Ingresa tu Nombre">
+        <input type="email" name="email" placeholder="Ingresa tu Correo">
+        <input type="text" name="boxname" placeholder="Nombre del Centro deportivo">
+        <input type="text" name="city" placeholder="Ciudad">
+        <input type="text" name="users" placeholder="Cantidad de alumnos (aprox)">
+        <input type="submit" name="" value="Enviar">
       </form>
     </div>
     <div class="img" style="background-image: url('{{asset('/img/reserva_img.jpg')}}')">
