@@ -292,19 +292,29 @@ header.site-header
           border-radius: 2px
           border: solid 0.5px $gray
           background: transparent
-          color: $gray
+          // color: $gray
+          color: white
           padding: 10px 12px
           margin-bottom: 10px
+          outline: none
+          transition: all ease 0.3s
           &::placeholder
             color: gray
-        input[type="button"]
-          background: $darker
+          &:focus
+            border: solid 0.5px $primary-dark
+        input[type="button"],
+        input[type="submit"]
+          background: $primary
           border: transparent
           padding-top: 12px
           padding-bottom: 12px
-          color: $secondary
+          color: $dark
           @include condensed
           text-transform: uppercase
+          transition: all ease 0.3s
+          &:hover,
+          &:focus
+            background: $primary-dark
     .img
       display: none
     .close
@@ -348,7 +358,8 @@ header.site-header
         p
         form
           input
-          input[type="button"]
+          input[type="button"],
+          input[type="submit"]
       .img
         order: 1
         width: 100%
@@ -382,7 +393,8 @@ header.site-header
             &:nth-child(4),
             &:nth-child(5)
               width: 49%
-          input[type="button"]
+          input[type="button"],
+          input[type="submit"]
       .img
         width: 55%
         height: 100%
@@ -406,7 +418,8 @@ header.site-header
         form
           input
             margin-bottom: 14px
-          input[type="button"]
+          input[type="button"],
+          input[type="submit"]
       .img
         // width: 55%
 
@@ -422,7 +435,8 @@ header.site-header
         p
         form
           input
-          input[type="button"]
+          input[type="button"],
+          input[type="submit"]
       .img
 
 @media (min-width: 1500px)
@@ -437,7 +451,8 @@ header.site-header
         p
         form
           input
-          input[type="button"]
+          input[type="button"],
+          input[type="submit"]
       .img
 
 
