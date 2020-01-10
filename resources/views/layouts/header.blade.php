@@ -3,7 +3,7 @@
     <a href="/">
       <img src="{{asset('/img/logo_beta.svg')}}" class="logo" alt="Ir al Home">
     </a>
-    <a class="btn-highlight window-trigger" href="#">Solicítalo aquí</a>
+    <a class="btn-highlight window-trigger" href="#" id="boton-formulario-open1">Solicítalo aquí</a>
   </div>
 </header>
 
@@ -20,7 +20,7 @@
         <input type="text" name="boxname" placeholder="Nombre del Centro deportivo">
         <input type="text" name="city" placeholder="Ciudad">
         <input type="text" name="users" placeholder="Cantidad de alumnos (aprox)">
-        <input type="submit" name="" value="Enviar">
+        <input type="submit" name="" value="Enviar" id="boton-formulario-enviar">
       </form>
     </div>
     <div class="img" style="background-image: url('{{asset('/img/reserva_img.jpg')}}')">

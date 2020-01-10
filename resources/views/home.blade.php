@@ -8,7 +8,7 @@
         <h1 class="heading">
           El <span class="color-primary">sistema de gestión definitivo</span> para tu centro deportivo
         </h1>
-        <a class="btn-normal" href="#">
+        <a class="btn-normal" href="#" id="boton-enteratemas">
           Entérate más
         </a>
       </div>
@@ -227,7 +227,7 @@
       <p class="">
         Inscribe tu centro deportivo en nuestro programa Beta y prueba la applicación gratis antes que nadie.
       </p>
-      <a class="btn-highlight window-trigger" href="#">
+      <a class="btn-highlight window-trigger" href="#" id="boton-formulario-open2">
         Solicíta una demo
       </a>
     </div>
