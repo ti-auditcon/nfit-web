@@ -6,10 +6,10 @@
       <a href="#" class="text-center">Contacto</a>
     </div>
     <div class="rrss">
-      <a href="#">
+      <a href="https://facebook.com/nfitapp" id="boton-facebook">
         <img src="{{asset('/img/facebook_icon.png')}}">
       </a>
-      <a href="#">
+      <a href="https://instagram.com/nfitapp" id="boton-instagram">
         <img src="{{asset('/img/instagram_icon.png')}}">
       </a>
     </div>
