@@ -125,7 +125,8 @@
               </span>
             </h2>
             <p>
-              Estamos trabajando duro para poner a tu disposición planes convenientes para tu negocio. Mientras puedes probar la app y vivir la experiencia NFIT.
+              Estamos trabajando duro para poner a tu disposición planes convenientes para tu negocio. 
+              Mientras tanto puedes probar la app y vivir la experiencia NFIT.
             </p>
           </div>
         </div>
